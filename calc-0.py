@@ -1,7 +1,7 @@
 #GRUPO SALINAS#
 #Proyecto de evaluación propedeútico Automation QA")#
 #Calculadora#
-#Versión: 2.0#
+#Versión: 3.0#
 #Alumna: Reyes Trejo Karla Verónica Michelle#
 
 #Imports    
@@ -46,7 +46,7 @@ def op_divide():
  s2 = input("Divisor: ")
  print("resultado: " + str(int(s1) / int(s2)))  #hace falta incluir validación de parámetros
 
-#5 Raiz 
+#5 Raiz
 def op_raiz():
     print ("Has elegido operación raiz cuadrada, ingresa el numero a calcular:")
     s1 = input("Raiz de: ")
@@ -59,13 +59,13 @@ def op_exp():
     s2 = input("el exponente: ")
     print("resultado: " + str(pow(int(s1),int(s2))))  #hace falta incluir validación de parámetros
 
-#7 Seno 
+#7 Seno
 def op_seno():
     print ("Función trigonométrica  Seno: ")
     s1 = input("Número a calcular: ")
     print("resultado: " + str(sin(float(s1))))  #hace falta incluir validación de parámetros
 
-#8 Coseno 
+#8 Coseno
 def op_cos():
     print ("Función trigonométrica Coseno: ")
     s1 = input("Número a calcular: ")
@@ -79,7 +79,7 @@ def op_tan():
 
 #Definición de menú de la calculadora
 def mi_menu():
-    print("Proyecto de evaluación propedeútico Automation QA [Calculadora v2.0]")
+    print("Proyecto de evaluación propedeútico Automation QA [Calculadora v3.0]")
     print("Alumna: Reyes Trejo Karla Verónica Michelle")
     print("1 .- Sumar")
     print("2 .- Restar")
