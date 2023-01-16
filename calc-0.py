@@ -1,7 +1,7 @@
 #GRUPO SALINAS#
 #Proyecto de evaluación propedeútico Automation QA")#
 #Calculadora#
-#Versión: 1.0#
+#Versión: 2.0#
 #Alumna: Reyes Trejo Karla Verónica Michelle#
 
 #Imports    
@@ -79,7 +79,7 @@ def op_tan():
 
 #Definición de menú de la calculadora
 def mi_menu():
-    print("Proyecto de evaluación propedeútico Automation QA [Calculadora v1.0]")
+    print("Proyecto de evaluación propedeútico Automation QA [Calculadora v2.0]")
     print("Alumna: Reyes Trejo Karla Verónica Michelle")
     print("1 .- Sumar")
     print("2 .- Restar")
